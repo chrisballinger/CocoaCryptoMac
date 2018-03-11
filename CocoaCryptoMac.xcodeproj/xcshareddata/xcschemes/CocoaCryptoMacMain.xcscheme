@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D93F7AC92055C0BE0047A2A7"
-               BuildableName = "CocoaCryptoMac.framework"
-               BlueprintName = "CocoaCryptoMac"
+               BlueprintIdentifier = "249F50D91B928E1100B0CA61"
+               BuildableName = "CocoaCryptoMacMain"
+               BlueprintName = "CocoaCryptoMacMain"
                ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,7 +29,26 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "249F50F21B92AB8D00B0CA61"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests"
+               ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "249F50D91B928E1100B0CA61"
+            BuildableName = "CocoaCryptoMacMain"
+            BlueprintName = "CocoaCryptoMacMain"
+            ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -44,15 +63,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D93F7AC92055C0BE0047A2A7"
-            BuildableName = "CocoaCryptoMac.framework"
-            BlueprintName = "CocoaCryptoMac"
+            BlueprintIdentifier = "249F50D91B928E1100B0CA61"
+            BuildableName = "CocoaCryptoMacMain"
+            BlueprintName = "CocoaCryptoMacMain"
             ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -62,15 +82,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D93F7AC92055C0BE0047A2A7"
-            BuildableName = "CocoaCryptoMac.framework"
-            BlueprintName = "CocoaCryptoMac"
+            BlueprintIdentifier = "249F50D91B928E1100B0CA61"
+            BuildableName = "CocoaCryptoMacMain"
+            BlueprintName = "CocoaCryptoMacMain"
             ReferencedContainer = "container:CocoaCryptoMac.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
